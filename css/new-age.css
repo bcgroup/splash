@@ -72,6 +72,24 @@ p {
   font-family: 'Lato', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
   font-size: 1.3rem;
   letter-spacing: 3px;
+  margin-bottom: 50px;
+}
+.slogan {
+  font-family: 'Lato', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 100;
+  font-size: 3rem;
+  line-height: 3.2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.sub-slogan {
+  font-family: 'Lato', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   margin-bottom: 150px;
 }
 #map {
@@ -127,6 +145,7 @@ p {
 }
 .navbar-default .nav > li > a {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 11px;
