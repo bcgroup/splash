@@ -42,7 +42,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
@@ -98,6 +98,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p class="cities">LOS ANGELES | SEOUL</p>
+                    <p class="slogan">Bold & Courageous</p>
+                    <p class="sub-slogan">Entertainment Group</p>
                 </div>
             </div>
         </div>
