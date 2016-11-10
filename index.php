@@ -79,7 +79,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a href="mailto:clee@bandc.co">Contact</a>
                     </li>
                 </ul>
             </div>
