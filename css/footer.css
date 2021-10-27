@@ -1,0 +1,31 @@
+/*  FOOTER CSS
+# -------------------------------------------- */
+
+footer {
+	padding: 25px 0;
+	text-align: center;
+	color: #b6c2d5;
+	background-color: #104595;
+}
+
+footer p {
+	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-size: 12px;
+	margin: 0;
+}
+
+footer ul {
+	margin-bottom: 0;
+}
+
+footer ul li a {
+	font-size: 12px;
+	color: rgba(255, 255, 255, .3);
+}
+
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a.active {
+	text-decoration: none;
+}

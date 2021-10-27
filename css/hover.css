@@ -1,0 +1,153 @@
+/*  HOVER CSS
+# -------------------------------------------- */
+
+section.features .feature-item figure {
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	text-align: center;
+	background: #fff;
+}
+
+section.features .feature-item figure img {
+	position: relative;
+	display: block;
+	max-width: 100%;
+	min-height: 100%;
+	opacity: .8;
+}
+
+section.features .feature-item figure figcaption {
+	font-size: 1em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+	-webkit-backface-visibility: hidden;
+					backface-visibility: hidden;
+}
+
+section.features .feature-item figure figcaption::before,
+section.features .feature-item figure figcaption::after {
+	pointer-events: none;
+}
+
+section.features .feature-item figure figcaption,
+section.features .feature-item figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+section.features .feature-item figure figcaption > a {
+	font-size: 0;
+	z-index: 1000;
+	white-space: nowrap;
+	text-indent: 200%;
+	opacity: 0;
+}
+
+section.features .feature-item figure p {
+	font-size: 68.5%;
+	margin: 0;
+}
+
+section.features .feature-item figure.effect-oscar {
+	background: -webkit-linear-gradient(45deg, #104595 0%, #104595 100%);
+	background:         linear-gradient(45deg, #104595 0%, #104595 100%);
+}
+
+section.features .feature-item figure.effect-oscar img {
+	-webkit-transition: opacity .35s;
+					transition: opacity .35s;
+	opacity: 1;
+}
+
+section.features .feature-item figure.effect-oscar figcaption {
+	padding: 0 10%;
+	-webkit-transition: background-color .35s;
+					transition: background-color .35s;
+}
+
+section.features .feature-item figure.effect-oscar .press-logo img {
+	width: 65%;
+	max-width: 80%;
+	margin: 8% auto 12%;
+	-webkit-transition: -webkit-transform .35s;
+					transition:         transform .35s;
+	-webkit-transform: translate3d(0, 100%, 0);
+					transform: translate3d(0, 100%, 0);
+	-webkit-filter: drop-shadow(0px 2px 1px rgb(0 0 0 / .2));
+					filter: drop-shadow(0px 2px 1px rgb(0 0 0 / .2));
+}
+
+section.features .feature-item figure.effect-oscar figcaption::before,
+section.features .feature-item figure.effect-oscar p {
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+					transition: opacity .35s, transform .35s;
+	-webkit-transform: scale(0);
+					transform: scale(0);
+	opacity: 0;
+}
+
+section.features .feature-item figure.effect-oscar:hover .press-logo img {
+	-webkit-transform: translate3d(0, 60%, 0) scale(.5, .5);
+					transform: translate3d(0, 60%, 0) scale(.5, .5);
+}
+
+section.features .feature-item figure.effect-oscar:hover figcaption::before,
+section.features .feature-item figure.effect-oscar:hover p {
+	font-size: 1em;
+	-webkit-transform: scale(1);
+					transform: scale(1);
+	opacity: 1;
+}
+
+section.features .feature-item figure.effect-oscar:hover figcaption {
+	background-color: rgba(58, 52, 42, 0);
+}
+
+section.features .feature-item figure.effect-oscar:hover .press-thumb img {
+	opacity: .4;
+	-webkit-filter: grayscale(100%);
+					filter: grayscale(100%);
+}
+
+
+
+/*  MEDIA QUERIES
+# -------------------------------------------- */
+
+@media screen and (max-width: 568px) {
+	section.features .feature-item figure.effect-oscar figcaption {
+		padding: 0 5%;
+		-webkit-transition: background-color .35s;
+						transition: background-color .35s;
+	}
+
+	section.features .feature-item figure.effect-oscar .press-logo img {
+		width: 70%;
+		max-width: 80%;
+		margin: 3% auto 12%;
+		-webkit-transition: -webkit-transform .35s;
+						transition:         transform .35s;
+		-webkit-transform: translate3d(0, 100%, 0);
+						transform: translate3d(0, 100%, 0);
+		-webkit-filter: drop-shadow(0px 2px 1px rgb(0 0 0 / .2));
+						filter: drop-shadow(0px 2px 1px rgb(0 0 0 / .2));
+	}
+
+	section.features .feature-item figure.effect-oscar:hover .press-logo img {
+		-webkit-transform: translate3d(0, 50%, 0) scale(.7, .7);
+						transform: translate3d(0, 50%, 0) scale(.7, .7);
+	}
+
+	section.features .feature-item figure.effect-oscar:hover figcaption::before,
+	section.features .feature-item figure.effect-oscar:hover p {
+		font-size: .8em;
+		-webkit-transform: scale(1);
+						transform: scale(1);
+		opacity: 1;
+	}
+}

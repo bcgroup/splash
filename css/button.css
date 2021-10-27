@@ -1,0 +1,29 @@
+/*  BUTTON CSS
+# -------------------------------------------- */
+
+.btn-outline {
+	color: #ffffff;
+	border: 1px solid;
+	border-color: #ffffff;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+	color: #ffffff;
+	border-color: #104595;
+	background-color: #104595;
+}
+
+.btn {
+	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border-radius: 300px;
+}
+
+.btn-xl {
+	font-size: 11px;
+	padding: 15px 45px;
+}

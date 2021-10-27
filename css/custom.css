@@ -1,0 +1,271 @@
+/*  CUSTOM CSS
+# -------------------------------------------- */
+
+.heading-font {
+	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-weight: normal;
+}
+
+.body-font {
+	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+}
+
+.alt-font {
+	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.img-responsive-new {
+	position: relative;
+	display: block;
+	width: 340px;
+	max-width: 100%;
+	height: auto;
+	margin: 80px auto 0;
+	padding: 30px;
+}
+
+.img-feature-item {
+	position: relative;
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.cities {
+	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-size: 1.75rem;
+	margin-bottom: 30px;
+	letter-spacing: 3px;
+}
+
+.slogan {
+	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-size: 7rem;
+	font-weight: 700;
+	line-height: 7.2rem;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.sub-slogan {
+	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-size: 1.3rem;
+	font-weight: 300;
+	line-height: 1.2rem;
+	margin-bottom: 60px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.title {
+	font-family: 'Catamaran', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-size: 3rem;
+	line-height: 3.2rem;
+	margin-bottom: 40px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.about-us {
+	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-size: 1.3em;
+	line-height: 2em;
+	margin-bottom: 30px;
+	text-align: left;
+	color: #b6c2d5;
+}
+
+.about-us:nth-child(4) {
+	margin-bottom: 60px;
+}
+
+.about-us:last-child {
+	margin-bottom: 60px;
+}
+
+#map {
+	width: 100%;
+	height: 200px;
+	margin-top: 100px;
+}
+
+.map {
+	height: 500px;
+	padding: 0;
+}
+
+.map iframe {
+	pointer-events: none;
+}
+
+.bg-primary {
+	background: #104595;
+}
+
+.text-primary {
+	color: #104595;
+}
+
+.no-gutter > [class*='col-'] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+::-moz-selection {
+	color: #ffffff;
+	background: #8a82ed;
+	text-shadow: none;
+}
+
+::selection {
+	color: #ffffff;
+	background: #8a82ed;
+	text-shadow: none;
+}
+
+img::selection {
+	color: #ffffff;
+	background: transparent;
+}
+
+img::-moz-selection {
+	color: #ffffff;
+	background: transparent;
+}
+
+
+
+/*  MEDIA QUERIES
+# -------------------------------------------- */
+
+@media screen and (max-width: 992px) {
+	.cities {
+		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-size: 1.4rem;
+		margin-bottom: 30px;
+		letter-spacing: 3px;
+	}
+
+	.slogan {
+		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 4.2rem;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+	}
+
+	.sub-slogan {
+		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-size: 1.3rem;
+		font-weight: 300;
+		line-height: 2rem;
+		margin-bottom: 40px;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+	}
+
+	.about-us {
+		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-size: 1.2em;
+		line-height: 1.8em;
+		margin-bottom: 30px;
+		padding: 0 1.5em 0;
+		text-align: left;
+		color: #b6c2d5;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.map {
+		height: 75%;
+	}
+
+	.cities {
+		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-size: 1.4rem;
+		margin-bottom: 30px;
+		letter-spacing: 3px;
+	}
+
+	.slogan {
+		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 4.2rem;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+	}
+
+	.sub-slogan {
+		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-size: 1.3rem;
+		font-weight: 300;
+		line-height: 2rem;
+		margin-bottom: 40px;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+	}
+
+	.about-us {
+		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-size: 1.2em;
+		line-height: 2em;
+		margin-bottom: 30px;
+		padding: 0 1.5em 0;
+		text-align: left;
+		color: #b6c2d5;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.cities {
+		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-size: 1.4rem;
+		margin-bottom: 30px;
+		letter-spacing: 3px;
+	}
+
+	.slogan {
+		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 4.2rem;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+	}
+
+	.sub-slogan {
+		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-size: 1.3rem;
+		font-weight: 300;
+		line-height: 2rem;
+		margin-bottom: 40px;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+	}
+
+	.about-us {
+		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-size: 1.1em;
+		line-height: 2em;
+		margin-bottom: 30px;
+		padding: 0 1em 0;
+		text-align: left;
+		color: #b6c2d5;
+	}
+}
+
+/*!
+ * Start Bootstrap - New Age v3.3.7 (http://startbootstrap.com/template-overviews/new-age)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
