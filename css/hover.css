@@ -98,7 +98,7 @@ section.features .feature-item figure.effect-oscar:hover .press-logo img {
 
 section.features .feature-item figure.effect-oscar:hover figcaption::before,
 section.features .feature-item figure.effect-oscar:hover p {
-	font-size: 1em;
+	font-size: 1.1em;
 	-webkit-transform: scale(1);
 					transform: scale(1);
 	opacity: 1;
