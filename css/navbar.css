@@ -9,7 +9,7 @@
 					transition: all .35s;
 	letter-spacing: 1px;
 	border-color: rgba(34, 34, 34, .05);
-	background-color: #104595;
+	background-color: #ffffff;
 }
 
 .navbar-default .navbar-toggle {
@@ -24,17 +24,16 @@
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-	border-color: #104595 !important;
+	border-color: #ffffff !important;
 }
 
 .navbar-default .navbar-header {
-	background-color: #104595;
+	background-color: #ffffff;
 }
 
 .navbar-default .navbar-header .navbar-brand {
-	width: 150px;
+	width: 130px;
 	height: auto;
-	opacity: .7;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -45,7 +44,7 @@
 .navbar-default .navbar-header .navbar-toggle {
 	font-size: 20px;
 	padding: 4px 0;
-	color: rgba(255, 255, 255, .7);
+	color: rgba(0, 0, 0, 1);
 }
 
 .navbar-default .nav > li > a {
@@ -74,7 +73,7 @@
 
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-	color: rgba(255, 255, 255, .7);
+	color: rgba(0, 0, 0, 1);
 }
 
 .navbar-default .nav > li > a:hover,
@@ -114,11 +113,11 @@
 @media screen and (max-width: 768px) {
 	.navbar-default {
 		border-color: transparent;
-		background-color: #104595;
+		background-color: #ffffff;
 	}
 
 	.navbar-default .navbar-header .navbar-brand {
-		color: rgba(255, 255, 255, .7);
+		color: rgba(0, 0, 0, 1);
 	}
 
 	.navbar-default .navbar-header .navbar-brand:hover,
@@ -128,7 +127,7 @@
 
 	.navbar-default .nav > li > a,
 	.navbar-default .nav > li > a:focus {
-		color: rgba(255, 255, 255, .7);
+		color: rgba(0, 0, 0, 1);
 	}
 
 	.navbar-default .nav > li > a:hover,
@@ -138,21 +137,21 @@
 
 	.navbar-default.affix {
 		border-color: rgba(34, 34, 34, .1);
-		background-color: #104595;
+		background-color: #ffffff;
 	}
 
 	.navbar-default.affix .navbar-header .navbar-brand {
-		color: rgba(255, 255, 255, .7);
+		color: rgba(0, 0, 0, 1);
 	}
 
 	.navbar-default.affix .navbar-header .navbar-brand:hover,
 	.navbar-default.affix .navbar-header .navbar-brand:focus {
-		color: #104595;
+		color: #ffffff;
 	}
 
 	.navbar-default.affix .nav > li > a,
 	.navbar-default.affix .nav > li > a:focus {
-		color: rgba(255, 255, 255, .7);
+		color: rgba(0, 0, 0, 1);
 	}
 
 	.navbar-default.affix .nav > li > a:hover,

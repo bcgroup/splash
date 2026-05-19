@@ -7,3 +7,31 @@
 	font-style: normal;
 	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HailSnow.woff') format('woff');
 }
+
+.dm-serif-display-regular {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* <weight>: Use a value from 200 to 900 */
+/* <uniquifier>: Use a unique and descriptive class name */
+
+.zalando-sans-expanded-200 {
+  font-family: 'Zalando Sans Expanded', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sekuya-regular {
+  font-family: 'Sekuya', system-ui;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -4,12 +4,12 @@
 footer {
 	padding: 25px 0;
 	text-align: center;
-	color: #b6c2d5;
-	background-color: #104595;
+	color: #000000;
+	background-color: #ffffff;
 }
 
 footer p {
-	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 	font-size: 12px;
 	margin: 0;
 }

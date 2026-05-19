@@ -2,16 +2,16 @@
 # -------------------------------------------- */
 
 .heading-font {
-	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 	font-weight: normal;
 }
 
 .body-font {
-	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 }
 
 .alt-font {
-	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
@@ -23,7 +23,7 @@
 .img-responsive-new {
 	position: relative;
 	display: block;
-	width: 340px;
+	width: 600px;
 	max-width: 100%;
 	height: auto;
 	margin: 80px auto 0;
@@ -40,14 +40,14 @@
 }
 
 .cities {
-	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 	font-size: 1.75rem;
 	margin-bottom: 30px;
 	letter-spacing: 3px;
 }
 
 .slogan {
-	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-family: 'DM Serif Display', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 	font-size: 7rem;
 	font-weight: 700;
 	line-height: 7.2rem;
@@ -56,12 +56,12 @@
 }
 
 .sub-slogan {
-	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 	font-size: 1.3rem;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1.2rem;
 	margin-bottom: 60px;
-	letter-spacing: 8px;
+	letter-spacing: 3px;
 	text-transform: uppercase;
 }
 
@@ -75,20 +75,20 @@
 }
 
 .about-us {
-	font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+	font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 	font-size: 1.3em;
 	line-height: 2em;
 	margin-bottom: 30px;
 	text-align: left;
-	color: #b6c2d5;
+	color: #000000;
 }
 
 .about-us:nth-child(4) {
-	margin-bottom: 60px;
+	margin-bottom: 0;
 }
 
 .about-us:last-child {
-	margin-bottom: 60px;
+	margin-bottom: 0;
 }
 
 #map {
@@ -107,11 +107,11 @@
 }
 
 .bg-primary {
-	background: #104595;
+	background: #ffffff;
 }
 
 .text-primary {
-	color: #104595;
+	color: #ffffff;
 }
 
 .no-gutter > [class*='col-'] {
@@ -121,13 +121,13 @@
 
 ::-moz-selection {
 	color: #ffffff;
-	background: #8a82ed;
+	background: #7e7e7e;
 	text-shadow: none;
 }
 
 ::selection {
 	color: #ffffff;
-	background: #8a82ed;
+	background: #7e7e7e;
 	text-shadow: none;
 }
 
@@ -148,14 +148,14 @@ img::-moz-selection {
 
 @media screen and (max-width: 992px) {
 	.cities {
-		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 		font-size: 1.4rem;
 		margin-bottom: 30px;
 		letter-spacing: 3px;
 	}
 
 	.slogan {
-		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-family: 'DM Serif Display', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 		font-size: 4rem;
 		font-weight: 700;
 		line-height: 4.2rem;
@@ -164,23 +164,22 @@ img::-moz-selection {
 	}
 
 	.sub-slogan {
-		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 		font-size: 1.3rem;
-		font-weight: 300;
 		line-height: 2rem;
 		margin-bottom: 40px;
-		letter-spacing: 5px;
+		letter-spacing: 3px;
 		text-transform: uppercase;
 	}
 
 	.about-us {
-		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 		font-size: 1.2em;
 		line-height: 1.8em;
 		margin-bottom: 30px;
 		padding: 0 1.5em 0;
 		text-align: left;
-		color: #b6c2d5;
+		color: #000000;
 	}
 }
 
@@ -190,14 +189,14 @@ img::-moz-selection {
 	}
 
 	.cities {
-		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 		font-size: 1.4rem;
 		margin-bottom: 30px;
 		letter-spacing: 3px;
 	}
 
 	.slogan {
-		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-family: 'DM Serif Display', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 		font-size: 4rem;
 		font-weight: 700;
 		line-height: 4.2rem;
@@ -206,36 +205,35 @@ img::-moz-selection {
 	}
 
 	.sub-slogan {
-		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 		font-size: 1.3rem;
-		font-weight: 300;
 		line-height: 2rem;
 		margin-bottom: 40px;
-		letter-spacing: 5px;
+		letter-spacing: 3px;
 		text-transform: uppercase;
 	}
 
 	.about-us {
-		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 		font-size: 1.2em;
 		line-height: 2em;
 		margin-bottom: 30px;
 		padding: 0 1.5em 0;
 		text-align: left;
-		color: #b6c2d5;
+		color: #000000;
 	}
 }
 
 @media screen and (max-width: 568px) {
 	.cities {
-		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 		font-size: 1.4rem;
 		margin-bottom: 30px;
 		letter-spacing: 3px;
 	}
 
 	.slogan {
-		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-family: 'DM Serif Display', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 		font-size: 4rem;
 		font-weight: 700;
 		line-height: 4.2rem;
@@ -244,23 +242,22 @@ img::-moz-selection {
 	}
 
 	.sub-slogan {
-		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 		font-size: 1.3rem;
-		font-weight: 300;
 		line-height: 2rem;
 		margin-bottom: 40px;
-		letter-spacing: 5px;
+		letter-spacing: 3px;
 		text-transform: uppercase;
 	}
 
 	.about-us {
-		font-family: 'SF_HailSnow', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
+		font-family: 'Zalando Sans Expanded', 'Malgun Gothic', Dotum, 'Helvetica', 'Arial', 'sans-serif';
 		font-size: 1.1em;
 		line-height: 2em;
 		margin-bottom: 30px;
 		padding: 0 1em 0;
 		text-align: left;
-		color: #b6c2d5;
+		color: #000000;
 	}
 }
 
